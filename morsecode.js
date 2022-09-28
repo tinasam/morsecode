@@ -29,8 +29,9 @@ const morseConvert = [
 // Alert to ask for user to enter TEXT only in display box
     // 
 
-    
+
 // User enters  text in English
+    //function 
 
 // Translate text into Morse code
 
