@@ -8,15 +8,17 @@
 </head>
 <body>
     <form class="morse_code"> 
-    <h2>Alert!</h2>
-    <p>Click on the "x" symbol to close the alert message.</p>
+    <!-- <h2>Alert!</h2>
+    <p>Click on the "x" symbol to close the alert message.</p> -->
     <div class="alert">
+        <h2>Alert!</h2>
+        <p>Click on the "x" symbol to close the alert message.</p>
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-        <strong>NOTE!</strong> Please ONLY INPUT TEXT. Numbers and punctuation will NOT be translated.
+        <strong>NOTE!</strong> Please <strong>ONLY INPUT TEXT</strong> . Numbers and punctuation will NOT be translated.
     </div>
 
-        <input type="text"/>
-        <button type="submit" id="add-button">Translate</button>
+    <input type="text"/>
+    <button type="submit" id="add-button">Translate</button>
     
     
     
