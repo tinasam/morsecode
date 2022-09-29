@@ -11,13 +11,25 @@
     color: black;
     margin-bottom: 1%;
   }
+
+  /* The English to Morse Code entry button */
+  .text_entry {
+    margin-left: 35px;
+    border: 1px solid blue;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    padding: 20px;
+    /* display: flex;
+    justify-content: flex-end; */
+  }
     /* The close button */
   .closebtn {
-    margin-left: 35px;
+    /* margin-left: 35px; */
     color: blue;
     font-weight: bold;
     float: right;
-    font-size: 25px;
+    font-size: 35px;
     line-height: 20px;
     cursor: pointer;
     transition: 0.3s;
@@ -26,4 +38,34 @@
   /* When moving the mouse over the close button */
   .closebtn:hover {
     color: black;
+  }
+
+/* add-button */
+  .translate {
+    margin-left: 35px;
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .translate:hover {
+    color: blue;
+  }
+
+/* Clear Morse Code button */
+  .morse_code {
+    /* margin-left: 35px; */
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .morse_code:hover {
+    color: blue;
   }

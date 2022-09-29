@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="morsecode.css">
 </head>
 <body>
-    <form class="morse_code"> 
-    <!-- <h2>Alert!</h2>
-    <p>Click on the "x" symbol to close the alert message.</p> -->
+    <form> 
+    <!-- Create alert tag and message about entry for morse code translation -->
     <div class="alert">
         <h2>Alert!</h2>
         <p>Click on the "x" symbol to close the alert message.</p>
@@ -17,8 +16,9 @@
         <strong>NOTE!</strong> Please <strong>ONLY INPUT TEXT</strong> . Numbers and punctuation will NOT be translated.
     </div>
 
-    <input type="text"/>
-    <button type="submit" id="add-button">Translate</button>
+    <input class="text_entry" type="text"/>
+    <button type="submit" id="translator-button" class="translate">Translate</button>
+    <button type="submit" id="clear" class="morse_code">Clear Morse Code</button>
     
     
     
